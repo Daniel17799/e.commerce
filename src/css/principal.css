@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+body{
+    background-color: #F3F3F3;
+}
+
+
+root{
+    padding: 0;
+    margin: 0;
+    border: box 0;
+    background-color:#D9D9D9
+}
+
+.header {
+    display: flex;
+    height: 380px;
+    width: 100%;
+    background-image: url(../assets//banner-confecciones-garrido-primavera-verano-2017-hombre.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 24px;
+    color: #042326;
+}
+
+ul{
+    flex-direction: row;
+}
+
+.items {
+    display: inline-block;
+    margin: 8px;
+    list-style: none;
+    font-family: 'Jomhuria', serif;
+    font-size: 36px;
+    letter-spacing: 2px;  
+    transition: 0.3s;
+}
+
+.items a{
+    list-style: none;
+    text-decoration: none;
+    color: #042326;
+
+}
+.items:hover{
+    transform: scale(1.1);
+}
+
+.items a:hover{
+    text-decoration:underline; 
+}
+a{
+    text-decoration: none;
+    color: #042326;
+    transition: 0.5s;
+}
+
+a:hover{
+    transform: scale(0.9);
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 64px;
+    height: 90vh;
+    
+}
+
+.container-general {
+    background-color:#DCDDE1;
+}
+
+.container-img{
+    background-image: url(../assets//580b57fbd9996e24bc43bf77.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    height: 134px;
+    background-position: center;
+    padding-top: 20px;
+
+}
+
+.container-text{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Jomhuria', serif;
+    font-size: 24px;
+}
+
+.nombre{
+    font-size: 28px;
+}
+
+.precio{
+    font-size: 28px;
+}
