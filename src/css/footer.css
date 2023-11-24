@@ -13,3 +13,7 @@ h4{
     font-family: 'Franklin Gothic Medium',Arial, sans-serif;
     letter-spacing: 2px;
 }
+
+.link{
+    cursor: pointer;
+}

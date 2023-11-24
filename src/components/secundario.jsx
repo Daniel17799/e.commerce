@@ -1,11 +1,11 @@
 import React from "react";
-import "../css/principal.css";
 import "../css/articulo.css";
 import Footer from "./footer";
 import { Link } from 'react-router-dom';
 
 
-function Principal() {
+
+function Busos() {
     return (
         <>
             <div className="header"></div>
@@ -13,7 +13,7 @@ function Principal() {
             <nav className="navbar">
                 <ul>
                     <li className="items">
-                        <Link to="/">Camisas</Link>
+                        <Link to="/#">Camisas</Link>
                     </li>
                     <li className="items">
                         <Link to="/busos">Busos</Link>
@@ -22,9 +22,9 @@ function Principal() {
             </nav>
 
             <section className="articles">
-            <Link to="/articulo">
+            <Link to="/articulo2">
                 <div className="container-general">
-                    <div className="container-img"></div>
+                    <div className="container-img2"></div>
                     <div className="container-text">
                         <p className="nombre">Camisa gris</p>
                         <p className="precio">15$</p>
@@ -32,9 +32,9 @@ function Principal() {
                 </div>
                 </Link>
 
-                <Link to="/articulo">
+                <Link to="/articulo2">
                 <div className="container-general">
-                    <div className="container-img"></div>
+                    <div className="container-img2"></div>
                     <div className="container-text">
                         <p className="nombre">Camisa gris</p>
                         <p className="precio">15$</p>
@@ -42,9 +42,9 @@ function Principal() {
                 </div>
                 </Link>
 
-                <Link to="/articulo">
+                <Link to="/articulo2">
                 <div className="container-general">
-                    <div className="container-img"></div>
+                    <div className="container-img2"></div>
                     <div className="container-text">
                         <p className="nombre">Camisa gris</p>
                         <p className="precio">15$</p>
@@ -53,9 +53,9 @@ function Principal() {
                 </Link>
 
                 
-                <Link to="/articulo">
+                <Link to="/articulo2">
                 <div className="container-general">
-                    <div className="container-img"></div>
+                    <div className="container-img2"></div>
                     <div className="container-text">
                         <p className="nombre">Camisa gris</p>
                         <p className="precio">15$</p>
@@ -63,9 +63,9 @@ function Principal() {
                 </div>
                 </Link>
 
-                <Link to="/articulo">
+                <Link to="/articulo2">
                 <div className="container-general">
-                    <div className="container-img"></div>
+                    <div className="container-img2"></div>
                     <div className="container-text">
                         <p className="nombre">Camisa gris</p>
                         <p className="precio">15$</p>
@@ -73,9 +73,9 @@ function Principal() {
                 </div>
                 </Link>
 
-                <Link to="/articulo">
+                <Link to="/articulo2">
                 <div className="container-general">
-                    <div className="container-img"></div>
+                    <div className="container-img2"></div>
                     <div className="container-text">
                         <p className="nombre">Camisa gris</p>
                         <p className="precio">15$</p>
@@ -83,9 +83,9 @@ function Principal() {
                 </div>
                 </Link>
 
-                <Link to="/articulo">
+                <Link to="/articulo2">
                 <div className="container-general">
-                    <div className="container-img"></div>
+                    <div className="container-img2"></div>
                     <div className="container-text">
                         <p className="nombre">Camisa gris</p>
                         <p className="precio">15$</p>
@@ -93,9 +93,9 @@ function Principal() {
                 </div>
                 </Link>
 
-                <Link to="/articulo">
+                <Link to="/articulo2">
                 <div className="container-general">
-                    <div className="container-img"></div>
+                    <div className="container-img2"></div>
                     <div className="container-text">
                         <p className="nombre">Camisa gris</p>
                         <p className="precio">15$</p>
@@ -112,4 +112,4 @@ function Principal() {
     )
 }
 
-export default Principal;
+export default Busos;
